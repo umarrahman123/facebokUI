@@ -1,0 +1,169 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic styles */
+ 
+
+body {
+    /* width: 337px;
+    height: 515.72px; */
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    padding: 10px; /* Adjusted padding for space conservation */
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 0; /* Adjusted padding for space conservation */
+}
+
+.logo img {
+    width: 30px; /* Adjusted logo size for smaller screens */
+    height: 30px;
+    border-radius: 50%;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: column;
+    margin-left: 5px; /* Adjusted margin for space conservation */
+}
+
+.person-name {
+    font-weight: bold;
+    font-size: 14px; /* Adjusted font size for readability */
+}
+
+.date {
+    font-size: 10px; /* Adjusted font size for readability */
+    color: #888;
+}
+
+.school-section {
+    margin-top: 10px; /* Adjusted margin for space conservation */
+}
+
+.school-picture img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 5px; /* Adjusted margin for space conservation */
+}
+
+.insights-section {
+    margin-top: 10px; /* Adjusted margin for space conservation */
+}
+
+.insights-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.boost-post-btn {
+    padding: 4px 8px; /* Reduced button padding for space conservation */
+    font-size: 12px; /* Adjusted font size for readability */
+    background-color: #1877f2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.social-section {
+    margin-top: 10px; /* Adjusted margin for space conservation */
+}
+
+.reaction-icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px; /* Adjusted margin for space conservation */
+}
+
+.reaction-icons span {
+    display: flex;
+    align-items: center;
+}
+
+.reaction-icons span i {
+    margin-right: 3px; /* Adjusted margin for space conservation */
+    font-size: 12px; /* Adjusted icon size for visibility */
+}
+
+.comments-section {
+    margin-top: 10px; /* Adjusted margin for space conservation */
+}
+
+.comment-input {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px; /* Adjusted margin for space conservation */
+}
+
+.comment-input input {
+    flex: 1;
+    padding: 4px; /* Reduced input padding for space conservation */
+    border-radius: 20px;
+    border: 1px solid #ddd;
+    font-size: 12px; /* Adjusted font size for readability */
+}
+
+.comment-btn, .gallery-btn {
+    background-color: #f0f2f5;
+    border: none;
+    padding: 4px; /* Reduced button padding for space conservation */
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.comment-btn:hover, .gallery-btn:hover {
+    background-color: #ddd;
+}
+
+/* Media query for smartphone-sized screen */
+@media (max-width: 337px) {
+    body {
+        padding: 5px; /* Further adjusted padding for space conservation */
+    }
+
+    .logo img {
+        width: 25px; /* Further adjusted logo size for smaller screens */
+        height: 25px;
+    }
+
+    .navbar {
+        margin-left: 0;
+    }
+
+    .person-name {
+        font-size: 12px; /* Further adjusted font size for readability */
+    }
+
+    .date {
+        font-size: 9px; /* Further adjusted font size for readability */
+    }
+
+    .boost-post-btn {
+        padding: 3px 6px; /* Further reduced button padding for space conservation */
+        font-size: 10px; /* Further adjusted font size for readability */
+    }
+
+    .reaction-icons span i {
+        font-size: 10px; /* Further adjusted icon size for visibility */
+    }
+
+    .comment-input input {
+        padding: 3px; /* Further reduced input padding for space conservation */
+        font-size: 10px; /* Further adjusted font size for readability */
+    }
+
+    .comment-btn, .gallery-btn {
+        padding: 3px; /* Further reduced button padding for space conservation */
+    }
+}
